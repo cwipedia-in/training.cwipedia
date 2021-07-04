@@ -1,4 +1,5 @@
 import learn from "../Images/study.gif";
+
 import { Animator, ScrollContainer ,ScrollPage, batch, Fade, FadeIn, Move, Sticky, StickyIn, ZoomIn } from "react-scroll-motion";
 
 
@@ -23,6 +24,9 @@ const Header=()=>{
                 </div>
                
             </div>
+
+          
+
         </div>
 
         <div className="header-bg"> 

@@ -1,13 +1,13 @@
 import fast from "../Images/flying-rocket.gif";
-import { useEffect } from "react";
+
 import 'aos/dist/aos.css';
 import Aos from "aos";
 import Typical from 'react-typical'
-
+import gravity from "../Images/gravitytech.jpeg"
+import softtel from "../Images/softtel.png"
 const Middle = ()=>{
-    useEffect(()=>{
         Aos.init({duration:1000});
-      },[]);
+     
 
     return(
         <div>
@@ -27,8 +27,25 @@ const Middle = ()=>{
                 </div>
                
             </div>
+            <div className="row gx-5 spon">
+
+            <p className="display-5">Sponsored by</p>
+            <div className="col-sm ">
+                <img src={gravity} class="img-fluid" alt="GravityTech Dream"/>
+                <div className=" bbody">
+                    <h5 className="card-title">Gravitech Dreams Private Limited</h5>
+                </div>
+            </div>
+            <div className="col-sm ">
+            <img src={softtel} class="img-fluid" alt="SoftTel Technology"/>
+                <div className=" bbody">
+                </div>
+            </div>
         </div>
         </div>
+        </div>
+
+       
     )
 
 }
