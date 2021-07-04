@@ -1,11 +1,15 @@
 
 import './App.css';
+import Header from './Components/header.components';
+import Middle from './Components/middle.components';
 
 function App() {
+  
   return (
-    <div className="App">
-    <h1>hib</h1>
-    </div>
+    <>
+    <Header/>
+    <Middle/>
+    </>
   );
 }
 
