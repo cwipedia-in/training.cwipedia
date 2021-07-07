@@ -103,7 +103,7 @@ const Register =() =>{
                         </div>
                         <div class="mb-3 form-check">
                             <input type="checkbox" class="form-check-input" id="checkR"  value={chk} onChange={(e)=> setChk(e.target.value)} required/>
-                            <a class="form-check-label" href="" for="checkR">Terms & Condition</a>
+                            <a class="form-check-label" href="https://www.cwipedia.in/p/privacy-policy-effective-date-december.html" for="checkR">Terms & Condition</a>
                         </div>
                                             
                         <button type="submit" className="btn shadow btn-train rounded">Submit</button>

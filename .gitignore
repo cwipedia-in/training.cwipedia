@@ -8,6 +8,7 @@
 # testing
 /coverage
 /src/firebase/base.js
+/src/Components/register.components.js
 # production
 /build
 

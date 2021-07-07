@@ -3,7 +3,7 @@ import fast from "../Images/flying-rocket.gif";
 import 'aos/dist/aos.css';
 import Aos from "aos";
 import Typical from 'react-typical'
-import gravity from "../Images/gravitytech.jpeg"
+import gravity from "../Images/gravitytech1.jpeg"
 import softtel from "../Images/softtel.png";
 
 const Middle = ()=>{
@@ -19,7 +19,7 @@ const Middle = ()=>{
                     <div data-aos="fade-up" className="col-sm ">
                         <img src={gravity} class="img-fluid" alt="GravityTech Dream"/>
                         <div className=" bbody">
-                            <h5 className="card-title">Gravitech Dreams Private Limited</h5>
+                            <h5 className="card-title">Private Limited</h5>
                         </div>
                     </div>
                     {/* <div className="col-sm ">
