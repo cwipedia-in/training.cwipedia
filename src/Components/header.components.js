@@ -12,6 +12,7 @@ const Header=()=>{
 
     return(
         <>
+        <div className="head-bg">
         <div className="container ">
             <div className="row vertical-center d-flex justify-content-center">
                 <div className="col-sm d-flex justify-content-center">
@@ -21,6 +22,8 @@ const Header=()=>{
                     <p className="h1">Training by cwipedia.in</p>
                     <p className="h6">Empowering Diploma student community by delivering valueble resources and training</p>
                     <a className="btn btn-train" href="#" role="button">#explore</a>
+                    <a className="btn btn-train" href="#" data-bs-toggle="modal" data-bs-target="#train" role="button">Register Here</a>
+                    {/* <a className="btn btn-train" href="#" role="button">#explore</a> */}
                 </div>
                
             </div>
@@ -31,23 +34,10 @@ const Header=()=>{
 
         <div className="header-bg"> 
 
-                <ScrollContainer>
-            
-            <ScrollPage page={1}>
-                <Animator animation={ZoomInScrollOut}>
-                <span style={{ fontSize: "3em" }}>Empowering Diploma student community ✨</span>
-                </Animator>
-            </ScrollPage>
-            <ScrollPage page={2} >
-                <Animator animation={FadeUp} >
-                <span style={{ fontSize: "3em" }}>100,000+ connected students over Maharashtra</span>
-                </Animator>
-            </ScrollPage>
-            
-            </ScrollContainer>
+               
         </div>
                 
-  
+  </div>
         </>
     )
 

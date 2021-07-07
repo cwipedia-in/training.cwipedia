@@ -17,7 +17,7 @@ const Upper =()=>{
                     <a className="nav-link active" aria-current="page" href="#">Home</a>
                     </li>
                     <li className="nav-item">
-                    <a className="nav-link" href="#">Link</a>
+                    <a className="nav-link" href="" data-bs-toggle="modal" data-bs-target="#train">Register Here</a>
                     </li>
                 </ul>
       

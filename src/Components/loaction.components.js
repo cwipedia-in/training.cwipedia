@@ -6,7 +6,7 @@ const Location=()=>{
        
 
          <div className="container ">
-         <Parallax className="shadow-lg p-3 mb-5 bg-body rounded" blur={5} bgImage={loc} bgImageAlt="the location" strength={200}>
+         <Parallax className="shadow-lg p-3 mb-5 bg-body rounded text-center" blur={5} bgImage={loc} bgImageAlt="the location" strength={200}>
             <div className="row vertical-center d-flex justify-content-center">
                 <div data-aos="fade-left" className="col-sm ">
                     <p className="display-6 colr" ><b>No need to Go anywhere</b></p>

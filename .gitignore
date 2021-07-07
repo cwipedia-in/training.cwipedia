@@ -7,7 +7,7 @@
 .gif
 # testing
 /coverage
-
+/src/firebase/base.js
 # production
 /build
 
