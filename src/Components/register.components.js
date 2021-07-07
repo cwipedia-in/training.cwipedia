@@ -17,9 +17,9 @@ const Register =() =>{
     
         db.collection("Registration For Training")
           .add({
-            name: name,
-            email: email,
-            contact: Contact,
+            Name: name,
+            Email: email,
+            Contact: Contact,
             Collage_Name: clg,
             Branch: branch,
             Terms: chk,

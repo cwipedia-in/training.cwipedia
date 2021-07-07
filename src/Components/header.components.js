@@ -21,7 +21,7 @@ const Header=()=>{
                 <div className="col-sm ">
                     <p className="h1">Training by cwipedia.in</p>
                     <p className="h6">Empowering Diploma student community by delivering valueble resources and training</p>
-                    <a className="btn btn-train" href="#" role="button">#explore</a>
+                    <a className="btn btn-train" href="https://www.cwipedia.in" role="button">#explore</a>
                     <a className="btn btn-train" href="#" data-bs-toggle="modal" data-bs-target="#train" role="button">Register Here</a>
                     {/* <a className="btn btn-train" href="#" role="button">#explore</a> */}
                 </div>
