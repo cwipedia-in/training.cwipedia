@@ -1,5 +1,7 @@
 import { useState } from "react";
 import firebase from "../firebase/base";
+import HubspotForm from "react-hubspot-form";
+
 const Register =() =>{
     const db = firebase.firestore()
     const [name,setname]=useState("");
@@ -15,7 +17,7 @@ const Register =() =>{
     const handleRegi=(e)=>{
         e.preventDefault();
     
-        db.collection("Registration For Training")
+        db.collection("Registration-For-Training")
           .add({
             Name: name,
             Email: email,
@@ -55,14 +57,22 @@ const Register =() =>{
         <div className="modal-dialog">
             <div className="modal-content">
             <div className="modal-header">
-                <h5 className="modal-title" id="trainLabel">Registration for Training</h5>
+                <h5 className="modal-title" id="trainLabel">Registration for Training</h5><br/>
                 <button type="button" className="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div className="modal-body">
+            <h6 className="modal-title" id="trainLabel">For Help WhatsApp Us at +917038737772</h6>
 
             <div >
                     <div className="card-body ">
-         <form onSubmit={handleRegi}>
+                    <HubspotForm
+                portalId="21282569"
+                formId="af662427-3070-4e92-a4b6-56b9acd9703f"
+                onSubmit={() => console.log("Submit!")}
+                onReady={(form) => console.log("Form ready!")}
+                loading={<div></div>}
+                />
+         {/* <form onSubmit={handleRegi}>
             {message && <div className="alert alert-success" role="alert">
                 {message}
             </div>}
@@ -107,7 +117,7 @@ const Register =() =>{
                         </div>
                                             
                         <button type="submit" className="btn shadow btn-train rounded">Submit</button>
-                    </form>
+                    </form> */}
                     </div>
                     </div>
 

@@ -15,12 +15,13 @@ const Footer=()=>{
         <hr/>
         <p className='footertext display-5 d-flex justify-content-center'>We love to code</p>
         <div className='footerpage'>
-        <a href='https://www.cwipedia.in/p/contact-us-demofont-familyarial.html' id='link'>Contact Us</a>
+        <a href='https://cwipedia.com/contact
+        ' id='link'>Contact Us</a>
         <a href='https://www.cwipedia.in/p/privacy-policy-effective-date-december.html' id='link'>Privacy Policy</a>
         </div>
         <hr/>
         <p className='cop' >
-                    Copyright &#169;2017-2021 All rights reserved | <a href='https://www.cwipedia.in' >cwipedia.in</a>
+                    Copyright &#169;2017-2022 All rights reserved | <a href='https://www.cwipedia.com' >cwipedia</a>
         </p>
         </div>
         </footer>

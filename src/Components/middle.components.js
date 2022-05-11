@@ -15,18 +15,10 @@ const Middle = ()=>{
 
         <div className="row gx-5 spon">
 
-                    <p className="display-5">Sponsored by</p>
+                    {/* <p className="display-5">Sponsored by</p> */}
                     <div data-aos="fade-up" className="col-sm ">
-                        <img src={gravity} class="img-fluid" alt="GravityTech Dream"/>
-                        <div className=" bbody">
-                            <h5 className="card-title">Private Limited</h5>
-                        </div>
+                       
                     </div>
-                    {/* <div className="col-sm ">
-                    <img src={softtel} class="img-fluid" alt="SoftTel Technology"/>
-                        <div className=" bbody">
-                        </div>
-                    </div> */}
                 </div>
 
 
