@@ -67,7 +67,7 @@ const Register =() =>{
                     <div className="card-body ">
                     <HubspotForm
                 portalId="21282569"
-                formId="af662427-3070-4e92-a4b6-56b9acd9703f"
+                formId="c2547e2d-27c5-4bb6-92af-859eb6782198"
                 onSubmit={() => console.log("Submit!")}
                 onReady={(form) => console.log("Form ready!")}
                 loading={<div></div>}

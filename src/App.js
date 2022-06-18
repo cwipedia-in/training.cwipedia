@@ -8,13 +8,16 @@ import Upper from './Components/upper.components';
 import Anim from './Components/anim.components';
 import Register from './Components/register.components';
 import week from './Components/week.png';
+import GooglePayButton from '@google-pay/button-react';
+
 function App() {
   
   return (
     <>
     <Upper/>
     <Header/>
-    <img src={week} className="img-fluid" alt="Training By cwipedia"></img>
+      <img src={week} className="img-fluid" alt="Industrial Training By cwipedia"></img>
+    
     <Middle/>
     <Register/>
     {/* <Anim/> */}

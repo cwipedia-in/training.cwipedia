@@ -1,4 +1,5 @@
-import logo from "../Images/cwi.png"
+import logo from "../Images/cwi.png";
+
 const Upper =()=>{
     return(
         <>
@@ -6,7 +7,7 @@ const Upper =()=>{
         <nav className="navbar navbar-expand-lg navbar-light shadow p-3 mb-5 bg-body rounded">
             <div className="container-fluid">
             <a class="navbar-brand" href="#">
-            <img src={logo} alt="" />
+            <img src={logo} height="40"  alt="" /> CWIPEDIA
             </a>
                 <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span className="navbar-toggler-icon"></span>
