@@ -14,7 +14,7 @@ const Features = () => {
             </div>
             <div className="feature">
                 <div className="feature-icon">
-                    <FontAwesomeIcon icon={faCircle} />
+                    <FontAwesomeIcon icon={faStar} />
                 </div>
                 <div className="feature-name">
                     Explore our courses
