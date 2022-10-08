@@ -11,3 +11,30 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.feature-container{
+  display: flex;
+  justify-content: space-around;
+  padding: 3vw;
+  margin: 2vw 0 2vw 0;
+  background-color:#f7f9fa;
+}
+
+.feature{
+  display: flex;
+}
+
+.feature-icon{
+  font-size: 1.5rem;
+}
+
+.feature-icon{
+  margin: 0 1vw 0 1vw;
+}
+
+.feature-name{
+  font-size: 0.8rem;
+  color:rgb(79, 79, 79);
+  display: flex;
+  align-items: center;
+}
