@@ -1,5 +1,5 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faCircle, faLaptop, faRibbon, faUserGroup } from '@fortawesome/free-solid-svg-icons'
+import { faCircle, faLaptop, faStar, faRibbon, faUserGroup } from '@fortawesome/free-solid-svg-icons'
 
 const Features = () => {
     return ( 
