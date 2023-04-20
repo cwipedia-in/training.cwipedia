@@ -11,6 +11,7 @@ import week from './Components/week.png';
 import Features from './Components/features.components';
 import GooglePayButton from '@google-pay/button-react';
 
+
 function App() {
   
   return (

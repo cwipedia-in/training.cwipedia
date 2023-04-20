@@ -27,21 +27,21 @@ const Header=()=>{
                     <p className="h1">Industrial Training by CWIPEDIA</p>
                     <p className="h6">Empowering Diploma student community by delivering valueble resources and training</p>
                     <a className="btn btn-train" href="https://cwipedia.com" role="button">#explore</a>
-                    <a className="btn btn-train" href="#" data-bs-toggle="modal" data-bs-target="#train" role="button">Register Here</a>
+                    <a href={"https://www.cwipedia.com/itr"} className="btn btn-train"  role="button">Register Here</a>
                     {/* <a className="btn btn-train" href="#" role="button">#explore</a> */}
                 </div>
-               
+
             </div>
 
-          
+
 
         </div>
 
-        <div className="header-bg"> 
+        <div className="header-bg">
 
-               
+
         </div>
-                
+
   </div>
         </>
     )

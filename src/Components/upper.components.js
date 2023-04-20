@@ -3,7 +3,7 @@ import logo from "../Images/cwi.png";
 const Upper =()=>{
     return(
         <>
-      
+
         <nav className="navbar navbar-expand-lg navbar-light shadow p-3 mb-5 bg-body rounded">
             <div className="container-fluid">
             <a class="navbar-brand" href="#">
@@ -18,10 +18,10 @@ const Upper =()=>{
                     <a className="nav-link active" aria-current="page" href="#">Home</a>
                     </li>
                     <li className="nav-item">
-                    <a className="nav-link" href="" data-bs-toggle="modal" data-bs-target="#train">Register Here</a>
+                    <a className="nav-link" href="https://www.cwipedia.com/itr">Register Here</a>
                     </li>
                 </ul>
-      
+
     </div>
   </div>
 </nav>

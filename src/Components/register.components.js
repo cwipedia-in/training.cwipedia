@@ -16,7 +16,7 @@ const Register =() =>{
 
     const handleRegi=(e)=>{
         e.preventDefault();
-    
+
         db.collection("Registration-For-Training")
           .add({
             Name: name,
@@ -29,17 +29,17 @@ const Register =() =>{
           })
           .then(() => {
             setMessage("Registration Successful | shortly You will receive an email");
-            setTimeout(function(){ 
+            setTimeout(function(){
                 setMessage('');
              }, 5000);
           })
           .catch((error) => {
               setError("Try again");
-              setTimeout(function(){ 
+              setTimeout(function(){
                 setError('');
              }, 5000);
           });
-    
+
         setname("");
         setemail("");
         setBranch("");
@@ -47,12 +47,10 @@ const Register =() =>{
         setclg("");
         setChk("");
 
-        
-
       };
 
     return(
-        <> 
+        <>
         <div className="modal fade" id="train" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="trainLabel" aria-hidden="true">
         <div className="modal-dialog">
             <div className="modal-content">
@@ -115,7 +113,7 @@ const Register =() =>{
                             <input type="checkbox" class="form-check-input" id="checkR"  value={chk} onChange={(e)=> setChk(e.target.value)} required/>
                             <a class="form-check-label" href="https://www.cwipedia.in/p/privacy-policy-effective-date-december.html" for="checkR">Terms & Condition</a>
                         </div>
-                                            
+
                         <button type="submit" className="btn shadow btn-train rounded">Submit</button>
                     </form> */}
                     </div>

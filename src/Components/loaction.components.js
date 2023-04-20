@@ -16,6 +16,8 @@ const Location=()=>{
                
             </div>
          </Parallax>
+
+
         </div>
         </>
     )
